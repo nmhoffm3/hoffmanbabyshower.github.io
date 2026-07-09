@@ -20,7 +20,7 @@
 body {
     font-family: 'Georgia', serif, sans-serif; /* A readable serif for a classic feel */
     
-    background-image: url('Background.png'); /* THE AMBIENT BACKGROUND IMAGE */
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/357874eb-cf50-4829-ba7c-da05ef822ab0/deg2nfw-eb8dc6f5-4de6-47cd-83f2-e90361407381.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8zNTc4NzRlYi1jZjUwLTQ4MjktYmE3Yy1kYTA1ZWY4MjJhYjAvZGVnMm5mdy1lYjhkYzZmNS00ZGU2LTQ3Y2QtODNmMi1lOTAzNjE0MDczODEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OAjXHJmLG59xUmfX4QrvV98wZeTQ_L7jC6qA5CKsW-M'); /* THE AMBIENT BACKGROUND IMAGE */
     background-color: var(--color-background); /* Fallback color if image is missing */
     background-size: cover;
     background-attachment: fixed; /* Keeps the image fixed when scrolling, giving depth */

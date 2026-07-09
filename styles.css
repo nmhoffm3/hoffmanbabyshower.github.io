@@ -1,0 +1,175 @@
+@import url('https://googleapis.com');
+
+
+/*
+ * Zelda-Inspired Modern Styling
+ * Palette: Deep Forest Green (#228B22), Rich Gold/Yellow (#FFD700), Earth Brown (#8B4513)
+ * Typography: Pairing a classic serif (for titles) with a modern sans-serif (for body text).
+ */
+
+:root {
+    /* Zelda Palette inspired variables */
+    --color-primary: #2E8B57; /* SeaGreen - Main Accent/Headers */
+    --color-secondary: #FFD700; /* Gold - Highlights/Accents */
+    --color-background: #F4F1e6; /* Light parchment color (Fallback) */
+    --color-text: #333333; /* Dark text for readability */
+    --color-border: #8B4513; /* SaddleBrown - Rustic/Borders */
+    
+}   
+
+body {
+    font-family: 'Georgia', serif, sans-serif; /* A readable serif for a classic feel */
+    
+    background-image: url('Background.png'); /* THE AMBIENT BACKGROUND IMAGE */
+    background-color: var(--color-background); /* Fallback color if image is missing */
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling, giving depth */
+    background-repeat: no-repeat;
+    color: var(--color-text);
+    margin: 0;
+    /*padding: 20px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header and Main Structure */
+header {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding-bottom: 40px; /* Space below the header area */
+}
+
+main {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px;
+    /* OVERRIDE FIX: Making the main container itself reference the background image for thematic consistency, while retaining readability. */
+    background-image: url('InvitationBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+    padding: 40px 30px;
+    border-radius: 10px;
+    /* Adding a subtle pseudo-border/background element to suggest ancient stone */
+    border: 5px solid gold;
+    text-decoration: solid;
+}
+
+section {
+    /*border: 2px dotted #F4F1e6;
+    border-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 30px; */
+    background: rgba(198, 207, 255, 0.4);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle white border */
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    margin-bottom: 40px;
+    padding: 20px 0;
+    
+    
+}
+
+/* Typography */
+h1 {
+    font-family: "Bubblegum Sans", cursive; /* More dramatic, classic font for the name */
+    color: darkgreen;
+    font-size: 3.5em;
+    margin-bottom: 0;
+    text-shadow: 4px 4px 8px gold; /* Gives it a little depth */
+}
+
+h2 {
+    color: gold;
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 2em;
+    text-shadow: 4px 4px 8px black; /* Gives it a little depth */
+    margin-top: 5px;
+    border-bottom: 3px solid ;
+    display: inline-block;
+    
+}
+
+h3 {
+    font-family: "Bubblegum Sans", cursive; /* Clean, modern font for section headers */
+    color: white;
+    border-left: 5px solid var(--color-secondary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
+    padding-left: 10px;
+}
+h4 {
+    font-family: "Bubblegum Sans", cursive; /* Clean, modern font for section headers */
+    color: black;
+    border-left: 5px solid var(--color-secondary);
+    text-shadow: 2px 2px 4px gold;
+    padding-left: 10px;
+}
+
+p {
+    color: white;
+    font-family: "Bubblegum Sans", cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Links and Buttons (CTAs) */
+a {
+    
+    display: block; /* Make links take up full width for better clickability */
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none; /* Remove default underline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2e8b5685;
+}
+
+/* Specific link styling to make them look like 'buttons' on the page */
+.amazon-link a {
+    background-color: #ff9500; /* Amazon orange/yellow tones */
+    color: white !important;
+    margin: 20px;
+}
+.rsvp-survey a {
+    background-color: var(--color-primary);
+    color: white !important;
+    margin: 20px;
+}
+
+/* Hover effects for modern feel */
+a:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0.9;
+}
+
+a:visited {
+    color: white;
+}
+/* Footer Styling */
+footer {
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+    padding-top: 30px;
+    color: #777;
+    border-top: 2px dashed var(--color-border);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    main, section {
+        padding: 30px 20px;
+    }
+}

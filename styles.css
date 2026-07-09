@@ -20,7 +20,7 @@
 body {
     font-family: 'Georgia', serif, sans-serif; /* A readable serif for a classic feel */
     
-    background-image: url('Background.png'); /* THE AMBIENT BACKGROUND IMAGE */
+    background-image: url('background.png'); /* THE AMBIENT BACKGROUND IMAGE */
     background-color: var(--color-background); /* Fallback color if image is missing */
     background-size: cover;
     background-attachment: fixed; /* Keeps the image fixed when scrolling, giving depth */

@@ -75,7 +75,7 @@ section {
 
 /* Typography */
 h1 {
-    font-family: "Bubblegum Sans", cursive; /* More dramatic, classic font for the name */
+    font-family: "Bubblegum Sans"; /* More dramatic, classic font for the name */
     color: darkgreen;
     font-size: 3.5em;
     margin-bottom: 0;
@@ -84,8 +84,8 @@ h1 {
 
 h2 {
     color: gold;
-    font-family: "Bubblegum Sans", cursive;
-    font-size: 2em;
+    font-family: "Bubblegum Sans";
+    font-size: 3em;
     text-shadow: 4px 4px 8px black; /* Gives it a little depth */
     margin-top: 5px;
     border-bottom: 3px solid ;
@@ -94,14 +94,14 @@ h2 {
 }
 
 h3 {
-    font-family: "Bubblegum Sans", cursive; /* Clean, modern font for section headers */
+    font-family: "Bubblegum Sans"; /* Clean, modern font for section headers */
     color: white;
     border-left: 5px solid var(--color-secondary);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
     padding-left: 10px;
 }
 h4 {
-    font-family: "Bubblegum Sans", cursive; /* Clean, modern font for section headers */
+    font-family: "Bubblegum Sans"; /* Clean, modern font for section headers */
     color: black;
     border-left: 5px solid var(--color-secondary);
     text-shadow: 2px 2px 4px gold;
@@ -110,7 +110,8 @@ h4 {
 
 p {
     color: white;
-    font-family: "Bubblegum Sans", cursive;
+    font-family: "Bubblegum Sans";
+    font-size: large;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
     line-height: 1.6;
     margin-bottom: 1em;

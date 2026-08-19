@@ -1,6 +1,12 @@
 @import url('https://googleapis.com');
 
-
+@font-face {
+    font-family: 'Hyrule';
+    src: url('fonts/HyliaSerifBeta-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /*
  * Zelda-Inspired Modern Styling
  * Palette: Deep Forest Green (#228B22), Rich Gold/Yellow (#FFD700), Earth Brown (#8B4513)
@@ -75,7 +81,7 @@ section {
 
 /* Typography */
 h1 {
-    font-family: "Bubblegum Sans"; /* More dramatic, classic font for the name */
+    font-family: "Hyrule"; /* More dramatic, classic font for the name */
     color: darkgreen;
     font-size: 3.5em;
     margin-bottom: 0;
@@ -84,7 +90,7 @@ h1 {
 
 h2 {
     color: gold;
-    font-family: "Bubblegum Sans";
+    font-family: "Hyrule";
     font-size: 3em;
     text-shadow: 4px 4px 8px black; /* Gives it a little depth */
     margin-top: 5px;
@@ -94,7 +100,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Bubblegum Sans"; /* Clean, modern font for section headers */
+    font-family: "Hyrule"; /* Clean, modern font for section headers */
     color: white;
     border-left: 5px solid var(--color-secondary);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
@@ -103,6 +109,7 @@ h3 {
 h4 {
     font-family: "Bubblegum Sans"; /* Clean, modern font for section headers */
     color: black;
+    font-size: large;
     border-left: 5px solid var(--color-secondary);
     text-shadow: 2px 2px 4px gold;
     padding-left: 10px;
@@ -110,7 +117,7 @@ h4 {
 
 p {
     color: white;
-    font-family: "Bubblegum Sans";
+    font-family: 'Hyrule';
     font-size: large;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
     line-height: 1.6;
